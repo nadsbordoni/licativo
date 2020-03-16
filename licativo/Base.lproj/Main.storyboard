@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="licativo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Design sem nome-6" translatesAutoresizingMaskIntoConstraints="NO" id="pcN-P6-WaR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5D3-v5-L2r">
+                                <rect key="frame" x="27" y="221" width="85" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Group 18"/>
+                                <connections>
+                                    <action selector="botaoAc" destination="BYZ-38-t0r" eventType="touchUpInside" id="sXJ-ed-b51"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nt1-0c-Bmd">
+                                <rect key="frame" x="27" y="347" width="85" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="CInema" image="Group 4"/>
+                                <connections>
+                                    <action selector="botaoCinema" destination="BYZ-38-t0r" eventType="touchUpInside" id="eEA-cC-uhO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66F-jy-mB7">
+                                <rect key="frame" x="314" y="347" width="85" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Barzinho" image="Group 10"/>
+                                <connections>
+                                    <action selector="botaoBarzinho" destination="BYZ-38-t0r" eventType="touchUpInside" id="IH1-5x-m6E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljm-5W-xWl">
+                                <rect key="frame" x="27" y="478" width="85" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Show" image="Group 8"/>
+                                <connections>
+                                    <action selector="botaoShow" destination="BYZ-38-t0r" eventType="touchUpInside" id="i2K-jJ-24q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMa-uY-tll">
+                                <rect key="frame" x="170" y="478" width="85" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="cafe" image="Group 5na"/>
+                                <connections>
+                                    <action selector="botaoCafe" destination="BYZ-38-t0r" eventType="touchUpInside" id="iPC-bi-Myk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwJ-n8-A7P">
+                                <rect key="frame" x="314" y="478" width="85" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="parque" image="Group 2"/>
+                                <connections>
+                                    <action selector="botaoParque" destination="BYZ-38-t0r" eventType="touchUpInside" id="qhx-hN-gdR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xrp-Fa-E0d">
+                                <rect key="frame" x="27" y="616" width="85" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="teatro" image="Group 12"/>
+                                <connections>
+                                    <action selector="botaoTeatro" destination="BYZ-38-t0r" eventType="touchUpInside" id="nZl-KU-L7Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vax-4G-tF4">
+                                <rect key="frame" x="314" y="616" width="85" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Group 15"/>
+                                <connections>
+                                    <action selector="botaoFastFood" destination="BYZ-38-t0r" eventType="touchUpInside" id="lds-4E-FoT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8vY-h9-mXW">
+                                <rect key="frame" x="11" y="746" width="217" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Group 13"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oMe-7H-3xP">
+                                <rect key="frame" x="170" y="347" width="85" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="50" height="50"/>
+                                <state key="normal" image="Group 9">
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="botaoViagem" destination="BYZ-38-t0r" eventType="touchUpInside" id="lG0-72-Omy"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="0" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pXV-h6-QpN">
+                                <rect key="frame" x="27" y="121" width="367" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.97647058819999999" green="0.3803921569" blue="0.0078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="80"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJ6-1J-s1N">
+                                <rect key="frame" x="170" y="616" width="85" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Group 17"/>
+                                <connections>
+                                    <action selector="botaoBoliche" destination="BYZ-38-t0r" eventType="touchUpInside" id="DmX-Iy-k57"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9W-d9-15t">
+                                <rect key="frame" x="314" y="746" width="85" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Group 14"/>
+                                <connections>
+                                    <action selector="botaoIgual" destination="BYZ-38-t0r" eventType="touchUpInside" id="hfR-Gs-oib"/>
+                                </connections>
+                            </button>
+                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PnJ-2d-G1x">
+                                <rect key="frame" x="68" y="386" width="285" height="285"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Design sem nome-5" translatesAutoresizingMaskIntoConstraints="NO" id="eAM-p4-s6x">
+                                        <rect key="frame" x="-13" y="-60" width="311" height="405"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fv2-hF-wZD">
+                                        <rect key="frame" x="16" y="0.0" width="261" height="235"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                        <color key="textColor" red="0.96620899439999997" green="0.93474217079999999" blue="0.87025751620000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pG0-Up-Ntn">
+                                        <rect key="frame" x="262" y="7" width="22" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" image="xmark.circle" catalog="system"/>
+                                        <connections>
+                                            <action selector="botaoFechar" destination="BYZ-38-t0r" eventType="touchUpInside" id="wCC-1s-tbC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsq-iB-e0c">
+                                        <rect key="frame" x="-5" y="262" width="71" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Group 19"/>
+                                        <connections>
+                                            <action selector="botaoSalvar" destination="BYZ-38-t0r" eventType="touchUpInside" id="SpI-kA-hWX"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u5V-Bu-u23">
+                                        <rect key="frame" x="83" y="243" width="194" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96470588235294119" green="0.93333333333333335" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="continha" destination="PnJ-2d-G1x" id="3ok-o7-ST9"/>
+                        <outlet property="outletAC" destination="5D3-v5-L2r" id="2l1-2A-jPC"/>
+                        <outlet property="outletBarzinho" destination="66F-jy-mB7" id="jYj-bS-oek"/>
+                        <outlet property="outletBoliche" destination="wJ6-1J-s1N" id="zHs-Z1-f1z"/>
+                        <outlet property="outletCafe" destination="eMa-uY-tll" id="acu-zl-MGs"/>
+                        <outlet property="outletCinema" destination="Nt1-0c-Bmd" id="nAl-tU-uAb"/>
+                        <outlet property="outletFastFood" destination="vax-4G-tF4" id="0OX-oi-SrM"/>
+                        <outlet property="outletHistory" destination="8vY-h9-mXW" id="Ny8-Xk-ZTl"/>
+                        <outlet property="outletIgual" destination="J9W-d9-15t" id="p65-8O-RKf"/>
+                        <outlet property="outletParque" destination="iwJ-n8-A7P" id="acm-Ty-qQW"/>
+                        <outlet property="outletShow" destination="Ljm-5W-xWl" id="rFQ-4s-NS8"/>
+                        <outlet property="outletTeatro" destination="Xrp-Fa-E0d" id="JQN-Ms-ewI"/>
+                        <outlet property="outletViagem" destination="oMe-7H-3xP" id="hkr-Pj-N67"/>
+                        <outlet property="resultado" destination="u5V-Bu-u23" id="GSA-d1-ktW"/>
+                        <outlet property="textField" destination="pXV-h6-QpN" id="sKz-qT-ett"/>
+                        <outlet property="textoContinha" destination="fv2-hF-wZD" id="3te-1X-kMP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57.971014492753625" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Design sem nome-5" width="485" height="485"/>
+        <image name="Design sem nome-6" width="414" height="896"/>
+        <image name="Group 10" width="88" height="88"/>
+        <image name="Group 12" width="88" height="88"/>
+        <image name="Group 13" width="208" height="88"/>
+        <image name="Group 14" width="88" height="88"/>
+        <image name="Group 15" width="88" height="88"/>
+        <image name="Group 17" width="88" height="88"/>
+        <image name="Group 18" width="88" height="88"/>
+        <image name="Group 19" width="127" height="49"/>
+        <image name="Group 2" width="88" height="88"/>
+        <image name="Group 4" width="88" height="88"/>
+        <image name="Group 5na" width="88" height="88"/>
+        <image name="Group 8" width="88" height="88"/>
+        <image name="Group 9" width="88" height="88"/>
+        <image name="xmark.circle" catalog="system" width="64" height="60"/>
+    </resources>
+</document>
