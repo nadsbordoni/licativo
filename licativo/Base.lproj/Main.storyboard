@@ -123,8 +123,170 @@
                                     <action selector="botaoIgual" destination="BYZ-38-t0r" eventType="touchUpInside" id="hfR-Gs-oib"/>
                                 </connections>
                             </button>
+                            <stepper hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="GJI-jw-BDR">
+                                <rect key="frame" x="22" y="418" width="94" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="stepperCinema:" destination="BYZ-38-t0r" eventType="valueChanged" id="7qi-gz-maf"/>
+                                </connections>
+                            </stepper>
+                            <stepper hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="xAv-eQ-cDs">
+                                <rect key="frame" x="165" y="418" width="94" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="stepperViagem:" destination="BYZ-38-t0r" eventType="valueChanged" id="Uvj-hp-koQ"/>
+                                </connections>
+                            </stepper>
+                            <stepper hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="jX8-qv-gNC">
+                                <rect key="frame" x="309" y="418" width="94" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="stepperBarzinho:" destination="BYZ-38-t0r" eventType="valueChanged" id="kRG-iI-u0U"/>
+                                </connections>
+                            </stepper>
+                            <stepper hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="ScQ-U1-pQn">
+                                <rect key="frame" x="22" y="549" width="94" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="StepperShow:" destination="BYZ-38-t0r" eventType="valueChanged" id="KxO-Tz-M0t"/>
+                                </connections>
+                            </stepper>
+                            <stepper hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="6gO-tL-n9b">
+                                <rect key="frame" x="165" y="549" width="94" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="stepperCafe:" destination="BYZ-38-t0r" eventType="valueChanged" id="KM2-DQ-fLb"/>
+                                </connections>
+                            </stepper>
+                            <stepper hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="1fv-QL-0t0">
+                                <rect key="frame" x="309" y="549" width="94" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="stepperParque:" destination="BYZ-38-t0r" eventType="valueChanged" id="ZEE-MU-oxy"/>
+                                </connections>
+                            </stepper>
+                            <stepper hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Z33-ul-pQL">
+                                <rect key="frame" x="22" y="687" width="94" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="stepperTeatro:" destination="BYZ-38-t0r" eventType="valueChanged" id="9gU-s6-5pC"/>
+                                </connections>
+                            </stepper>
+                            <stepper hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="yqG-ok-JFe">
+                                <rect key="frame" x="165" y="687" width="94" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="StepperBoliche:" destination="BYZ-38-t0r" eventType="valueChanged" id="Gq2-xn-Z1q"/>
+                                </connections>
+                            </stepper>
+                            <stepper hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Wid-VQ-v0L">
+                                <rect key="frame" x="309" y="687" width="94" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="stepperFastFood:" destination="BYZ-38-t0r" eventType="valueChanged" id="c7c-zh-lC5"/>
+                                </connections>
+                            </stepper>
+                            <imageView hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ellipse 1-3" translatesAutoresizingMaskIntoConstraints="NO" id="qh2-Ru-lpy">
+                                <rect key="frame" x="27" y="347" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ellipse 1-3" translatesAutoresizingMaskIntoConstraints="NO" id="RGg-4B-FGD">
+                                <rect key="frame" x="170" y="347" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ellipse 1-3" translatesAutoresizingMaskIntoConstraints="NO" id="CKr-oh-vdi">
+                                <rect key="frame" x="314" y="347" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ellipse 1-3" translatesAutoresizingMaskIntoConstraints="NO" id="4fv-uO-Km5">
+                                <rect key="frame" x="27" y="478" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ellipse 1-3" translatesAutoresizingMaskIntoConstraints="NO" id="I5L-7x-2Z3">
+                                <rect key="frame" x="170" y="478" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ellipse 1-3" translatesAutoresizingMaskIntoConstraints="NO" id="6Wp-qQ-M19">
+                                <rect key="frame" x="314" y="478" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ellipse 1-3" translatesAutoresizingMaskIntoConstraints="NO" id="5Ja-5c-dTs">
+                                <rect key="frame" x="27" y="616" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ellipse 1-3" translatesAutoresizingMaskIntoConstraints="NO" id="QmU-zb-Xrv">
+                                <rect key="frame" x="170" y="616" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ellipse 1-3" translatesAutoresizingMaskIntoConstraints="NO" id="eJE-hR-9UQ">
+                                <rect key="frame" x="314" y="616" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ss-pz-7Om">
+                                <rect key="frame" x="29" y="347" width="20" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="14"/>
+                                <color key="textColor" red="0.96620899439999997" green="0.93474217079999999" blue="0.87025751620000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fIC-hF-lI8">
+                                <rect key="frame" x="172" y="347" width="20" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="14"/>
+                                <color key="textColor" red="0.96620899439999997" green="0.93474217079999999" blue="0.87025751620000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E9D-cc-pII">
+                                <rect key="frame" x="316" y="347" width="20" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="14"/>
+                                <color key="textColor" red="0.96620899439999997" green="0.93474217079999999" blue="0.87025751620000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1KX-fM-xPy">
+                                <rect key="frame" x="29" y="478" width="20" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="14"/>
+                                <color key="textColor" red="0.96620899439999997" green="0.93474217079999999" blue="0.87025751620000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JdA-fh-R4Z">
+                                <rect key="frame" x="172" y="478" width="20" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="14"/>
+                                <color key="textColor" red="0.96620899439999997" green="0.93474217079999999" blue="0.87025751620000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LEN-Us-rmz">
+                                <rect key="frame" x="316" y="478" width="20" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="14"/>
+                                <color key="textColor" red="0.96620899439999997" green="0.93474217079999999" blue="0.87025751620000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GDa-4S-Dcc">
+                                <rect key="frame" x="29" y="616" width="20" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="14"/>
+                                <color key="textColor" red="0.96620899439999997" green="0.93474217079999999" blue="0.87025751620000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Avu-8d-x8S">
+                                <rect key="frame" x="172" y="616" width="20" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="14"/>
+                                <color key="textColor" red="0.96620899439999997" green="0.93474217079999999" blue="0.87025751620000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3V-Kn-0K7">
+                                <rect key="frame" x="316" y="616" width="20" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="14"/>
+                                <color key="textColor" red="0.96620899439999997" green="0.93474217079999999" blue="0.87025751620000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PnJ-2d-G1x">
-                                <rect key="frame" x="68" y="386" width="285" height="285"/>
+                                <rect key="frame" x="70" y="44" width="285" height="285"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Design sem nome-5" translatesAutoresizingMaskIntoConstraints="NO" id="eAM-p4-s6x">
@@ -170,7 +332,25 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="bolinhaBarzinho" destination="CKr-oh-vdi" id="Xxt-BO-rRg"/>
+                        <outlet property="bolinhaBoliche" destination="QmU-zb-Xrv" id="eUx-9Z-ABc"/>
+                        <outlet property="bolinhaCafe" destination="I5L-7x-2Z3" id="c7p-tk-PnA"/>
+                        <outlet property="bolinhaCinema" destination="qh2-Ru-lpy" id="x7n-fL-d8x"/>
+                        <outlet property="bolinhaFastFood" destination="eJE-hR-9UQ" id="MEr-qj-ZKE"/>
+                        <outlet property="bolinhaParque" destination="6Wp-qQ-M19" id="4X8-90-8EP"/>
+                        <outlet property="bolinhaShow" destination="4fv-uO-Km5" id="eNd-mI-d0h"/>
+                        <outlet property="bolinhaTeatro" destination="5Ja-5c-dTs" id="HhP-xO-FBp"/>
+                        <outlet property="bolinhaViagem" destination="RGg-4B-FGD" id="Z93-nn-X3l"/>
                         <outlet property="continha" destination="PnJ-2d-G1x" id="3ok-o7-ST9"/>
+                        <outlet property="labelBarzinho" destination="E9D-cc-pII" id="DI8-Pp-kag"/>
+                        <outlet property="labelBoliche" destination="Avu-8d-x8S" id="n0q-wV-eQl"/>
+                        <outlet property="labelCafe" destination="JdA-fh-R4Z" id="Xc9-w1-ioF"/>
+                        <outlet property="labelCinema" destination="4Ss-pz-7Om" id="KoH-do-PZa"/>
+                        <outlet property="labelFastFood" destination="I3V-Kn-0K7" id="Owg-MK-3xr"/>
+                        <outlet property="labelParque" destination="LEN-Us-rmz" id="ZGa-UF-slz"/>
+                        <outlet property="labelShow" destination="1KX-fM-xPy" id="7oU-dV-Huq"/>
+                        <outlet property="labelTeatro" destination="GDa-4S-Dcc" id="95D-8D-Nl5"/>
+                        <outlet property="labelViagem" destination="fIC-hF-lI8" id="SCW-1J-YNa"/>
                         <outlet property="outletAC" destination="5D3-v5-L2r" id="2l1-2A-jPC"/>
                         <outlet property="outletBarzinho" destination="66F-jy-mB7" id="jYj-bS-oek"/>
                         <outlet property="outletBoliche" destination="wJ6-1J-s1N" id="zHs-Z1-f1z"/>
@@ -184,6 +364,15 @@
                         <outlet property="outletTeatro" destination="Xrp-Fa-E0d" id="JQN-Ms-ewI"/>
                         <outlet property="outletViagem" destination="oMe-7H-3xP" id="hkr-Pj-N67"/>
                         <outlet property="resultado" destination="u5V-Bu-u23" id="GSA-d1-ktW"/>
+                        <outlet property="stepperBa" destination="jX8-qv-gNC" id="ADn-Fb-M71"/>
+                        <outlet property="stepperBol" destination="yqG-ok-JFe" id="ysC-Qq-RHi"/>
+                        <outlet property="stepperC" destination="GJI-jw-BDR" id="5Dx-Dj-avB"/>
+                        <outlet property="stepperCf" destination="6gO-tL-n9b" id="KhN-K4-Kvs"/>
+                        <outlet property="stepperF" destination="Wid-VQ-v0L" id="6cI-mj-bNO"/>
+                        <outlet property="stepperP" destination="1fv-QL-0t0" id="xQT-8o-rXI"/>
+                        <outlet property="stepperS" destination="ScQ-U1-pQn" id="L5r-uy-s3c"/>
+                        <outlet property="stepperT" destination="Z33-ul-pQL" id="n4n-l7-qdz"/>
+                        <outlet property="stepperV" destination="xAv-eQ-cDs" id="lNU-R9-bgZ"/>
                         <outlet property="textField" destination="pXV-h6-QpN" id="sKz-qT-ett"/>
                         <outlet property="textoContinha" destination="fv2-hF-wZD" id="3te-1X-kMP"/>
                     </connections>
@@ -196,6 +385,7 @@
     <resources>
         <image name="Design sem nome-5" width="485" height="485"/>
         <image name="Design sem nome-6" width="414" height="896"/>
+        <image name="Ellipse 1-3" width="33" height="33"/>
         <image name="Group 10" width="88" height="88"/>
         <image name="Group 12" width="88" height="88"/>
         <image name="Group 13" width="208" height="88"/>
